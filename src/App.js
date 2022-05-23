@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+
+import { ChakraProvider } from "@chakra-ui/react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./page/Main";
+import Registro from "./components/Registro";
+import BalanceDetallado from "./page/BalanceDetallado";
+import CombustibleDetallado from "./page/CombustibleDetallado";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChakraProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/registro-combustible" element={<Registro />} />
+          <Route path="/balance-detallado" element={<BalanceDetallado />} />
+          <Route
+            path="/detalle-combustible"
+            element={<CombustibleDetallado />}
+          />
+        </Routes>
+      </BrowserRouter>
+    </ChakraProvider>
   );
 }
 

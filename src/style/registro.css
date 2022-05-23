@@ -1,0 +1,37 @@
+.error-container {
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.container-principal {
+  padding: 2rem;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+
+.btn {
+  margin-top: 2rem;
+}
+
+.fecha {
+  padding: 1rem;
+  background-color: #ebf5fb;
+  outline: none;
+  border-radius: 0.4rem;
+  font-weight: 400;
+}
+
+label {
+  font-weight: bold;
+}

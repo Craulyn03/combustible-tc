@@ -1,0 +1,36 @@
+.balancetotal-container {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.balance-container {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.balance-title {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.balance-label {
+  font-size: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.main-container {
+  padding-top: 2rem;
+}
+
+.main-btn {
+  margin-top: 0.8rem;
+}
