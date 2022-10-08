@@ -66,7 +66,7 @@ const BalanceTarjetas = () => {
             <Tr>
               <Th>total de tarjetas {tarjetas.length} </Th>
               <Th>total de balance consumido ${""}</Th>
-              <Th isNumeric>balance total disponible ${balance} </Th>
+              <Th isNumeric>balance totales disponible ${balance} </Th>
             </Tr>
           </Tfoot>
         </Table>
